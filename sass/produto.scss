@@ -1,0 +1,66 @@
+$border-radius: 8px;
+$margin: 40px;
+$produto-largura: 250px;
+$img-lagura: 150px;
+$img-altura: 200px;
+
+@mixin h-custom-font{
+
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 4px;
+
+}
+
+.produto {
+
+  margin-left: 5px;
+  margin-top: $margin;
+  padding: 20px;
+  width: $produto-largura;
+  box-shadow: 1px 1px 1px #000;
+  overflow: hidden;
+  background-color: #fff;
+
+  img {
+    width: $img-lagura;
+    height: $img-altura;
+    padding-left: 50px;
+
+  }
+  h1{
+
+    @include h-custom-font;
+    color: brown;
+    font-weight: bold;
+
+  }
+  h2{
+
+    @include h-custom-font;
+    font-size: 14px;
+
+  }
+  h3{
+
+    @include h-custom-font;
+
+  }
+  border: {
+    radius: $border-radius;
+  }
+
+  h5{
+    @include h-custom-font;
+    font-size: 10px;
+  }
+
+
+}
+
+.produto:hover{
+
+  background-color: #dde2fc;
+
+}

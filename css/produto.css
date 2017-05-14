@@ -1,0 +1,42 @@
+.produto {
+  margin-left: 5px;
+  margin-top: 40px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 1px 1px 1px #000;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 8px; }
+  .produto img {
+    width: 150px;
+    height: 200px;
+    padding-left: 50px; }
+  .produto h1 {
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 4px;
+    color: brown;
+    font-weight: bold; }
+  .produto h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 4px;
+    font-size: 14px; }
+  .produto h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 4px; }
+  .produto h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 4px;
+    font-size: 10px; }
+
+.produto:hover {
+  background-color: #dde2fc; }
+
+/*# sourceMappingURL=produto.css.map */
