@@ -1,0 +1,54 @@
+$altura-top-bar: 50px;
+$background-color-top-bar : #0f6265;
+$color-top-bar : white;
+$text-align : justify;
+$title-padding-top : 2px;
+$img-largura : 50px;
+$img-altura  : 50px;
+$img-margin-top : 15px;
+$img-margin-left: 10px;
+
+.top-bar{
+
+  height: $altura-top-bar;
+  width: auto;
+  color: $color-top-bar;
+  background-color: $background-color-top-bar;
+  position: relative;
+
+  text{
+
+    align: $text-align;
+
+  }
+
+  h3{
+
+    padding-top: $title-padding-top;
+    display: inline;
+    float: right;
+
+  }
+
+  a{
+
+    text-decoration: none;
+    color: $color-top-bar;
+    display: inline;
+    float: right;
+    margin-right: 100px;
+
+  }
+
+  img{
+
+    width: $img-largura;
+    height: $img-altura;
+    margin-top: $img-margin-top;
+    margin-left: $img-margin-left;
+    float: left;
+  }
+
+}
+
+
